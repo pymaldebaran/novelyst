@@ -1,0 +1,25 @@
+[package]
+name = "novelyst"
+version = "0.1.0"
+entrypoint = "src/lib.typ"
+authors = ["Pierre-Yves Martin <https://github.com/pymaldebaran>"]
+description = "Book adapted for text-intensive original fiction, such as detective novels, murder mysteries, romance, sci-fi, and collections of short stories."
+repository = "https://github.com/pymaldebaran/novelyst"
+keywords = [
+    "novel",
+    "fiction",
+    "book",
+    "chapter",
+    "part",
+]
+categories = [
+    "text",
+    "book",
+]
+disciplines = ["literature"]
+
+[template]
+path = "template"
+entrypoint = "template/main.typ"
+
+[tool]
